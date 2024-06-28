@@ -34,4 +34,6 @@ app.get("/animals/:id", (c) => {
   return c.json(animal);
 });
 
+console.log("👋 Hallo");
+
 export default app;
